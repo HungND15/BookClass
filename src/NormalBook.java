@@ -1,10 +1,6 @@
 public class NormalBook extends Book {
     int pageCount;
 
-    public int getPageCount() {
-        return pageCount;
-    }
-
     @Override
     public void displayInfo() {
         System.out.println("Normal Book: ");
